@@ -29,3 +29,18 @@ Access granted
 
 
 """
+username = ""
+while True:
+    username = str(input("Enter username: "))
+    if username != "admin":
+        print("Access denied")
+    else:
+        break
+while True:
+    password = str(input("Enter password: "))
+    if password != "12345":
+        print("Access denied")
+    else:
+        break
+
+print("Access granted")

@@ -20,3 +20,12 @@ Example:
 10
 ...
 """
+import math
+
+count = 0
+
+while True:
+    count = count + 2
+    print(count)
+    if count == 20:
+        break
